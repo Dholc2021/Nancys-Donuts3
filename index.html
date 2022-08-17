@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nancy's Donuts</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Update these with your own fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="circle-container">
+                <div class="circle">
+                    <button id="close">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <button id="open">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+            
+            
+            <div class="intro-content">
+            <!-- Introduction -->
+            <section class="intro" id="home">
+                <h1 style="color: rgb(#fff4b4);" class="section__title section__title--intro">
+                    Welcome To <strong><em>Nancy's Donuts</em></strong>
+                </h1>
+                <p style="color: rgb(14, 99, 174)" class="section__subtitle section__subtitle--intro">In Grenada, Mississippi
+                </p>
+                <img src="img/assorted donuts2.jpg" style="width: 250px; height: 250px;" alt="a picture of Jane Smith smiling">
+            </section>
+        </div>
+        
+        
+        <nav>
+            <ul>
+                <li><i class="fas fa-home"></i><a href="#home">Home</a></li>
+                <li><i class="fas fa-user-alt"></i><a href="#about">About Us</a></li>
+                <li><i class="fas fa-user-alt"></i><a href="#donuts">Our Donuts</a></li>
+                <li><i class="fas fa-envelope"></i><a href="#contact">Contact Us</a></li>
+    
+            </ul>
+        </nav>
+        
+
+          </div>  
+        </header>  
+    
+                
+
+    <section class="my-services" id="about">
+        <!-- My services -->
+        <h2 style="color: rgb(13, 248, 248);" class="section__title section__title--services">About Us</h2>
+        <div class="box"style="width:100vw; height:100%;">
+        <div class="services">
+            <div class="service">
+                
+                <p style="font-size: 2rem;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequatLorem ipsum dolor sit amet,
+                    consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                    enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.</p>
+            </div> 
+        </div>
+        </div>
+    </section>
+    
+
+         <!-- Donut Gallery -->      
+
+        <section class="my-work" id="donuts">
+            <h2 class="section__title">Donut Gallery</h2>       
+            <div class="box"style="width:100vw; height:100%;">   
+        <div class="portfolio">
+            <!-- Portfolio item 01 -->
+            <div style="margin: 60px;" class="box">
+                <a href="#" class="portfolio__item">
+                <img style="width: 305px; height: 500px; " src="img/chocolate donuts.jpg" alt="" class="portfolio__img">
+            </a>
+            </div>
+            
+            <!-- Portfolio item 02 -->
+            <div style="margin: 60px;" class="box">
+                <a href="#" class="portfolio__item">
+                    <img style="width: 305px; height: 500px; " src="img/uniced donuts.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+            
+            <!-- Portfolio item 03 -->
+            <div style="margin: 60px;" class="box">
+                <a href="#" class="portfolio__item">
+                    <img style="width: 305px; height: 500px; " src="img/donut stack.jpg" alt="" class="portfolio__img">
+                </a>
+            </div>
+            
+            <!-- Portfolio item 04 -->
+            <div style="margin: 60px;" class="box">
+            <a href="#" class="portfolio__item">
+                <img style="width: 305px; height: 500px; " src="img/assorted donuts3.jpg" alt="" class="portfolio__img">
+            </a>
+            </div>
+        </div>
+    </div>
+    </section>
+
+<!-- CONTACT FORM -->
+
+    <section id="contact">
+<div class="box" style="width:100vw; height:100%;">
+
+    <div style="width: 350px;" class="form-container">
+        <h1>Get in touch</h1>
+        <form action="https://formsubmit.co/dholc3902@gmail.com" method="POST">
+            <div class="form-control">
+                <input type="text" required>
+                <label>Name</label>
+            </div>
+            <div class="form-control">
+                <input type="email" required>
+                <label>Email</label>
+            </div>
+            <div class="form-control">
+                <textarea name="Message" id="message" cols="30" rows="10"></textarea>
+                
+            </div>
+
+            <button class="submit-btn">Submit</button>
+        </form>
+    </div>
+</div>
+</section>
+
+<!-- FOOTER -->
+    <section id="footer">
+    <div class="box"style="width:100vw; height:100%;">    <!-- Footer -->
+    <footer class="footer">
+        <!-- replace with your own email address -->
+        <a href="" class="footer__link"></a>
+        <ul class="social-list">
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://codepen.io">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="http://dribbble.com">
+                    <i class="fab fa-dribbble"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://twitter.com">
+                    <i class="fab fa-twitter"></i>
+                </a>
+            </li>
+            <li class="social-list__item">
+                <a class="social-list__link" href="https://github.com">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+        </ul>
+    </footer>
+    </div>
+</section>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
